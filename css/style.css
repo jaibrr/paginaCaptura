@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #48c5ce;
+    text-align: center;
+    color:rgb(75, 59, 59);
+    padding: 10px;
+}
+
+.title{
+    font-size: 26px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(17, 17, 17, 0.904);
+}
+
+section{
+    background-image: url('../images/agenda.jpg');
+    background-size: cover;
+    overflow: hidden;
+    max-width: auto;
+    height: 100%;
+    color: rgb(116, 87, 87);
+    padding: 100px;
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+
+.formContainer{
+    max-width: 500px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+    color: rgb(116, 87, 87);
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+select{
+    appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+footer{
+    background-color: #e0d8de;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    width: 160px;
+    margin-left: 300%;
+}
+
+.description{
+    display: inline-block;
+    text-align: left;
+    color: rgb(116, 87, 87);
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
+}
+
+
+ @media screen and (max-width:420px){ 
+
+    .formContainer{
+        float: right;
+        max-width: 100%;
+    }
+   
+    .description{
+        display: inline-block;
+        text-align: left;
+        color: white;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .description h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        text-align: center;
+
+    }
+
+    footer{
+        background-color: #202121;
+        padding: 40px;
+    }
+
+}
