@@ -63,7 +63,8 @@ select{
 }
 
 footer{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     grid-template-columns: auto 1fr;
     background-color: #e0d8de;
     padding: 1rem;
@@ -75,16 +76,18 @@ footer{
 
 .picture{
     width: 12rem;
-    padding-left: 250%;
-    float: left;
+
 }
 
 .descriptionText{
-    float: left;
-    text-align: left;
-    line-height: 160%;
-    padding-left: 40%;
-    padding-right: 30%;
+    text-align: justify;
+    color: rgb(75, 59, 59);
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.descriptionText h3{
+    text-align: center;
     color: rgb(75, 59, 59);
 
 }
